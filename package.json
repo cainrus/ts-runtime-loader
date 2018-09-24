@@ -1,0 +1,36 @@
+{
+  "name": "ts-runtime-loader",
+  "version": "0.0.1",
+  "main": "lib/loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "eslint lib"
+  },
+  "author": "Sergei Tarassov <cainrus@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.6.0",
+    "memory-fs": "^0.4.1",
+    "ts-loader": "^5.1.0",
+    "ts-runtime": "^0.1.35"
+  },
+  "peerDependencies": {
+    "webpack": ">3.0.0",
+    "typescript": ">3.0.3"
+  },
+  "devDependencies": {
+    "eslint-config-node": "^3.0.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "husky": "^1.0.0-rc.15",
+    "prettier-eslint": "^8.8.2",
+    "typescript": "^3.0.3",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
